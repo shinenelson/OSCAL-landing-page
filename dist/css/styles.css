@@ -1,0 +1,71 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url("../fonts/SourceSansPro/SourceSansPro-Regular.otf"); }
+@font-face {
+  font-family: SourceSansProLight;
+  src: url("../fonts/SourceSansPro/SourceSansPro-Light.otf"); }
+.text-right {
+  text-align: right; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.header {
+  font-family: SourceSansProLight; }
+  .header div {
+    padding-top: 250px;
+    padding-bottom: 150px; }
+    .header div img {
+      display: block;
+      margin: 0 auto; }
+  .header h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 32px; }
+    .header h1 span {
+      font-size: 55px; }
+
+.content {
+  background-color: #ec2427;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  font-size: 20px; }
+  .content .head {
+    font-size: 40px;
+    line-height: 0.9em;
+    padding-right: 10px !important; }
+  .content .second {
+    padding-top: 20px;
+    font-size: 24px; }
+    .content .second a {
+      text-decoration: none;
+      color: white; }
+    .content .second a:hover,
+    .content .second a:focus {
+      background-color: white;
+      color: #ec2427; }
+    .content .second .organizedBy {
+      font-size: 20px;
+      margin-top: 48px; }
+  .content .email {
+    text-decoration: none;
+    color: white; }
+
+.footer {
+  padding: 40px 0;
+  background-color: white; }
+  .footer a {
+    color: #ec2427;
+    text-decoration: none; }
+
+body {
+  font-family: SourceSansPro;
+  background: url("../img/PanoramaRedBlur.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/*# sourceMappingURL=styles.css.map */
