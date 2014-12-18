@@ -31,6 +31,8 @@
     padding-top: 50px;
     padding-bottom: 50px; }
   .header img {
+    max-width: 60%; }
+  .header span {
     max-width: 60%; } }
 .content {
   background-color: #ec2427;
@@ -52,6 +54,9 @@
     .content .second a:focus {
       background-color: white;
       color: #ec2427; }
+    .content .second a.no-hover:hover,
+    .content .second a.no-hover:focus {
+      background-color: transparent; }
     .content .second .organizedBy {
       font-size: 20px;
       margin-top: 48px; }
